@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric & Plumbing Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('C:\Users\Netizens\Pictures\back.jpeg'); /* Replace with your background image */
+        background-size: cover;
+        color: rgb(256, 255, 255);
+    }
+    
+    header {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 20px;
+        border-radius: 10px;
+    }
+    
+    .product {
+        margin: 20px 0;
+    }
+    
+    .product img {
+        width: 200px; /* Adjust as needed */
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Electric & Plumbing Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Netizens/Desktop/Untitled-2.html">Electric Wires</a></li>
+                <li><a href="file:///C:/Users/Netizens/Desktop/Untitled-3.html">Plumbing Pipes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="wires">
+        <h2>Electric Wires</h2>
+        <div class="product">
+            <img src="C:\Users\Netizens\Pictures\electrical-wire.png" alt="Electric Wire">
+            <p>High-quality electric wires for all your needs.</p>
+         </div>
+        <div class="product">
+            <img src="C:\Users\Netizens\Pictures\wire.jpg" alt="Electric Wire 2">
+            <p>Durable and reliable electric wires.</p>
+        </div>
+    </section>
+
+    <section id="pipes">
+        <h2>Plumbing Pipes</h2>
+        <div class="product">
+            <img src="C:\Users\Netizens\Pictures\pipes.jpg"alt="Plumbing Pipe">
+            <p>Durable plumbing pipes for residential and commercial use.</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Netizens\Pictures\plumbing-materials3.png" alt="Plumbing Pipe 2">
+            <p>High-quality pipes for all plumbing needs.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Our@electricplumbingshop.com</p>
+        <p>Phone:(+91)8806329766</p>
+    </footer>
+</body>
+</html>
