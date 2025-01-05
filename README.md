@@ -1,2 +1,2 @@
-# new
-This is my first project
+simple design web sit
+Our Electric & Plumbing Shop
